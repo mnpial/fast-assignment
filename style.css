@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+
+}
+/* Bannar Section style start */
+.bannar-section {
+    background-image: url(images/banner/banner1\ horizental.PNG);
+    background-size: cover;
+    height: 65vh;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+
+
+}
+
+.bannar-titel {
+    display: inline-block;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.bannar-description {
+    display: inline-block;
+    text-align: left;
+    padding-right: 100px;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.button {
+    padding-top: 30px;
+    padding-left: 100px;
+
+}
+
+.primary-btn {
+    text-decoration: none;
+    border: none;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+}
+
+/* Bannar Section style end */
+
+/* My failures of previous year section style start  */
+.my-failures-section {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.my-failures-titel {
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.my-failures-description {
+    padding-top: 200px;
+    padding-right: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+/* My failures of previous year section style end */
+
+/* My Plan section style start */
+.my-plan-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.my-plan-container {
+    display: flex;
+    gap: 10px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.plans {
+
+    padding: 30px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.plans-description {
+    color: #474747;
+}
+
+/* My Plan section style end */
+
+/* Gradian section style start */
+
+.gradian {
+    background-image: url(images/watch.png), url(images/gradient2.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.gradian-titel {
+    color: white;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 34px;
+    
+}
+
+.button2 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.primary-btn2 {
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: orangered;
+    font-size: 25px;
+}
+
+/* Gradian section style end */
+
+/* Bonus section style start */
+.bonus-section{
+    display: flex;
+    padding-bottom: 50px;
+    
+}
+.client{
+    height: 50vh;
+    width: 60vh;
+    padding-top: 50px;
+    padding-right: 80px;
+}
+.bonus-header{
+    padding-top:150px ;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+.bonus-titel{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.bonus-description{
+    padding-bottom: 20px;
+    color: #474747;
+
+}
+.client-img{
+    height: 5vh;
+    width: 5vh;
+}
+
+/* Bonus section style end */
+
+/* Footer start */
+
+.footer-section{
+    display: flex;
+    gap:100px;
+    color: white;
+    background-color: #030100;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.footer-title{
+    font-size: 30px;
+}
+.footer-desription{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.email{
+ padding-bottom: 20px;
+
+}
+.number{
+    padding-bottom: 20px;
+}
+.subscribe-title{
+    padding-bottom: 20px;
+}
+
+input{
+    height: 40px;
+    border: #fc0404;
+    border-radius: 5px;
+    border-color: aliceblue;
+    background-color: #ffffff;
+    
+}
+.subscribe-btn2{
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: orangered;
+    font-size: 15px;
+}
+
+/* Footer end */
