@@ -8,12 +8,12 @@ body{
 }
 /* Bannar Section style start */
 .bannar-section {
-    background-image: url(images/banner/banner1\ horizental.PNG);
+    background-image: url(images/banner/banner1.png);
     background-size: cover;
     height: 65vh;
     background-repeat: no-repeat;
     display: flex;
-    text-align: left;
+    text-align: right;
     flex-direction: column;
     justify-content: center;
     background-position: center;
@@ -25,7 +25,7 @@ body{
     display: inline-block;
     text-align: left;
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 500px;
     font-weight: 700px;
     font-size: 35px;
 }
@@ -33,7 +33,6 @@ body{
 .bannar-description {
     display: inline-block;
     text-align: left;
-    padding-right: 100px;
     font-size: 20px;
     padding-top: 10px;
 
@@ -41,16 +40,17 @@ body{
 
 .button {
     padding-top: 30px;
-    padding-left: 100px;
+    padding-right: 10px;
 
 }
 
-.primary-btn {
+.contact-us-btn {
+    font-size: 20px;
     text-decoration: none;
     border: none;
     background-color: orangered;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 20px 10px 10px ;
     display: inline-block;
     color: white;
 }
@@ -125,14 +125,25 @@ li {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: left;
 
 }
 
+.gradian-bannar-titel{    
+    display: inline-block;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 50px;
+    font-weight: 700px;
+    font-size: 35px;
+
+}
 .gradian-titel {
     color: white;
-    padding-left: 10px;
+    padding-right: 10px;
     font-weight: 600;
     font-size: 34px;
+    text-align: left;
     
 }
 
@@ -234,7 +245,7 @@ input{
     margin-top: 10px;
     background-color: white;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 20px   ;
     display: inline-block;
     color: orangered;
     font-size: 15px;
